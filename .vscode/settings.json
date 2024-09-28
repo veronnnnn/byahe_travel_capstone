@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "explorer.compactFolders": false
+}
