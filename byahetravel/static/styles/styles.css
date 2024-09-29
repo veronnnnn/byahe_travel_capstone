@@ -218,6 +218,23 @@ section {
     color: white;
 }
 
+.log-in-btn {
+    background: #004AAD; /* Same background color */
+    color: white;        /* Same text color */
+    padding: 15px 30px; /* Same padding */
+    font-weight: bold;   /* Same font weight */
+    font-size: 1.2em;    /* Same font size */
+    text-decoration: none; /* No underline */
+    border-radius: 10px;  /* Same border radius */
+    transition: background 0.3s; /* Same transition */
+    display: inline-block; /* Same display */
+}
+
+.log-in-btn:hover {
+    background: #003580; /* Same hover effect */
+    color: white;        /* Same hover text color */
+}
+
 /* Reverse section adjustment */
 #about-us-reverse .about-content {
     padding-left: 40px;
@@ -742,6 +759,10 @@ p {
     }
 
     .sign-up-btn {
+        margin: 20px auto;
+    }
+
+    .log-in-btn {
         margin: 20px auto;
     }
 

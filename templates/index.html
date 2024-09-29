@@ -42,6 +42,8 @@
         <h1>Secure Online Payment System for Easy Transactions</h1>
         <p>Experience hassle-free online payments with BYAHE's secure payment system. Choose from a variety of payment options for your convenience.</p>
         <a href="#" class="sign-up-btn">Sign Up</a>
+        <span style="margin: 0 15px; font-size: 15px;">or</span>
+        <a href="#" class="log-in-btn">Log In</a>
     </div>
     <div class="about-image">
         <img src="{% static '/images/landing-page-img/landing-2.jpg' %}" alt="About Us Image">
@@ -85,12 +87,11 @@
 {% endblock services %}
 
 {% block vehicles %}
-<section id="vehicles-section"style="height: 250px; position: relative; padding: 40px 20px; padding-top: 20px; padding-bottom: 20px; background-image: url('{% static 'images/backgrounds/vehicle-bg.jpg'%}'); background-size: 100% auto; background-position: center; background-repeat: no-repeat;  width: 100%;  color: #ffffff; overflow: hidden;">
-    <div style=" content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(4, 51, 114, 0.55);  z-index: 1;">
-    </div>
-    <div class="vehicles-hero">
-        <h1>Vehicles</h1>
-        <p style="text-align: center;">get an overview of our available vehicles.</p>
+<section id="vehicles-section">
+    <div class="vehicles-hero" style="height: 250px; position: relative; padding: 40px 20px; padding-top: 20px; padding-bottom: 20px; background-image: url('{% static 'images/backgrounds/vehicle-bg.jpg' %}'); background-size: 100% auto; background-position: center; background-repeat: no-repeat; width: 100%; color: #ffffff; overflow: hidden;">
+        <div style="content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(4, 51, 114, 0.55); z-index: 1;"></div>
+        <h1 style="position: relative; z-index: 2;">Vehicles</h1>
+        <p style="text-align: center; position: relative; z-index: 2;">Get an overview of our available vehicles.</p>
     </div>
 
     <div class="vehicles-content">
@@ -100,16 +101,16 @@
         <h3>Class A Vehicles</h3>
         <div class="vehicle-cards" id="vehicle-cards">
             <div class="vehicle-card" data-href="/vehicles/taxi1.html">
-                <img src=" {% static 'images/vehicles/taxi-1.jpg' %}" alt="Toyota Vios 1">
-                <p>Toyota Vios 1</p>
+                <img src="{% static 'images/vehicles/taxi-1.jpg' %}" alt="Toyota Vios 1">
+                <p style= "text-align: center;">Toyota Vios 1</p>
             </div>
             <div class="vehicle-card" data-href="/vehicles/taxi2.html">
                 <img src="{% static 'images/vehicles/taxi-2.jpg' %}" alt="Toyota Corolla Z">
-                <p>Toyota Corolla Z</p>
+                <p style= "text-align: center;">Toyota Corolla Z</p>
             </div>
             <div class="vehicle-card" data-href="/vehicles/taxi3.html">
                 <img src="{% static 'images/vehicles/taxi-3.jpg' %}" alt="Toyota Vios 2">
-                <p>Toyota Vios 2</p>
+                <p style= "text-align: center;">Toyota Vios 2</p>
             </div>
         </div>
     </div>
@@ -119,15 +120,15 @@
         <div class="vehicle-cards" id="vehicle-cards-b">
             <div class="vehicle-card" data-href="/vehicles/minibus1.html">
                 <img src="{% static 'images/vehicles/mini-bus1.jpg' %}" alt="Modernized PUV (Mini Bus)">
-                <p>Modernized PUV (Mini Bus)</p>
+                <p style= "text-align: center;">Modernized PUV (Mini Bus)</p>
             </div>
             <div class="vehicle-card" data-href="/vehicles/minibus2.html">
                 <img src="{% static 'images/vehicles/mini-bus2.jpg' %}" alt="Modernized PUV (Mini Bus) V2">
-                <p>Modernized PUV (Mini Bus) V2</p>
+                <p style= "text-align: center;">Modernized PUV (Mini Bus) V2</p>
             </div>
             <div class="vehicle-card" data-href="/vehicles/minibus3.html">
                 <img src="{% static 'images/vehicles/mini-bus3.jpg' %}" alt="Modernized PUV (Mini Bus) V3">
-                <p>Modernized PUV (Mini Bus) V3</p>
+                <p style= "text-align: center;">Modernized PUV (Mini Bus) V3</p>
             </div>
         </div>
     </div>
