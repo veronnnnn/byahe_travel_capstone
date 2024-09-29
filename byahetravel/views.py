@@ -4,7 +4,7 @@ def index(request):
     return render(request, 'index.html')
 
 def sign_in(request):
-    return render(request, 'sign-in.html')
+    return render(request, 'users/sign-in.html')
 
 def sign_up(request):
-    return render(request, 'sign-up.html')
+    return render(request, 'users/sign-up.html')
